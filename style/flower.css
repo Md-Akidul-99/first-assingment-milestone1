@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* common sheared file */
+.btn-primary {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #fff;
+
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* banner section start */
+
+.banner-containt {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.banner-text {
+    max-width: 708px;
+}
+
+.banner-title {
+    color: #272727;
+    width: 650px;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.banner-description {
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.banner-image {
+    width: 500px;
+    height: 600px;
+    padding: 30px 20px 0 0;
+}
+
+/* main section start */
+.service-text {
+    text-align: center;
+    margin-top: 178px;
+}
+
+.service-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.service-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    margin: 24px auto;
+}
+
+/* flower part style */
+.flower{
+    display: inline;
+    margin: 218px;
+}
+.flower img{
+    margin: 0 10px;
+    
+}
+.flower6{
+    width: 210px;
+    height: 300px;
+    padding: 110px 50px 0 50px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 500px 500px 0 0;
+}
+.flower5{
+    width: 210px;
+    height: 300px;
+    padding: 110px 50px 0 50px;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 500px 500px 0 0;
+}
+.flower7{
+    width: 210px;
+    height: 300px;
+    padding: 110px 50px 0 50px;
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 500px 500px 0 0;
+}
+
+.flower-text{
+    width: 967px;
+    display: flex;
+    margin: 0 auto;
+    gap: 243px;
+
+}
+/* delivery part start */
+.delivery{
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    width: 983px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 128px 0 0 226px;
+    gap: 100px;
+}
+.delivery-text{
+    margin: 0 20px;
+}
+
+.main {
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.main-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.red {
+    color: #E55473;
+}
+
+
+.main-description {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* media part start */
+.media-text {
+    text-align: center;
+}
+
+.media-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 128px;
+    margin-bottom: 24px;
+}
+
+.media-description {
+    width: 594px;
+    margin: 0 auto;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.photo img {
+    display: inline;
+    height: 300px;
+    width: 250px;
+    margin: 0 10px;
+
+
+}
+
+.photo {
+    text-align: center;
+}
+
+
+.deal {
+    background-image: url('../images/Rectangle\ 9.png');
+    background-size: cover;
+    height: 349px;
+    width: 1072px;
+    border: 1px solid #fff;
+    margin: 128px auto;
+}
+
+.deal-text {
+    margin: 102px 243px 122px 171px;
+}
+
+.deal-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.deal-text input {
+    width: 465px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 10px;
+}
+
+.submit-form {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+/* footer section */
+
+.main-footer {
+    height: 449px;
+    background: #111010;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    margin: 0 auto;
+}
+
+.footer-title {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-description {
+    width: 625px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+}
